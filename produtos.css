@@ -1,0 +1,186 @@
+
+body{
+
+font-family: 'Bree Serif', serif;
+
+}
+
+body > p{
+
+    background: white;
+    padding: 3px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.caixa{
+
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+header{
+
+    background-color: rgba(128, 128, 128, 0.692);
+
+}
+
+
+.navmenu{
+
+    display:inline;
+    position:absolute;
+    top: 110px;
+    right: 0;
+    
+}
+nav a{
+
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    
+    }
+
+nav a:hover{
+
+    color:white;
+    text-decoration: underline;
+
+}
+
+.produtos{
+
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0 ;
+    
+    
+}
+
+.produtos li:hover h2{
+
+font-size: 34px ;
+
+}
+
+
+.produtos li:active{
+
+border-color: white ;
+
+}
+
+.produtos li{
+
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing:border-box;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+
+    border: gray solid 2px;
+
+}
+
+.produtos h2{
+
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 0;
+
+
+}
+
+
+.produto-descricao{
+
+    font-size: 18px;
+    
+
+}
+
+.produto-preco{
+
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer{
+
+text-align: center;
+background: url(bg.jpg);
+padding: 40px 0;
+
+}
+
+footer p{
+
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+    
+
+}
+
+@media screen and (max-width:480px){
+
+.caixa,.produtos{
+
+width: auto;
+
+}
+
+
+
+.produtos li{
+
+display: block;
+width: auto;
+margin-top: 20px;
+
+
+
+}
+
+h1{
+
+text-align: center;
+
+}
+
+.navmenu{
+
+position: static;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 0 20px 0;
+
+
+}
+
+    
+
+
+
+
+}

@@ -1,0 +1,56 @@
+
+Início do documento:
+
+<!DOCTYPE html>
+
+<html lang = "pt-br"> </html>
+
+<head> </head>: informações que passamos ao navegador
+
+<meta charset = "UTF-8">: dicionário
+
+
+<title> </title>: título do site que aparece na aba
+
+
+<body> </body>: tudo que eu quero que apareça no meu site.
+
+
+Tags do body:
+
+<strong> e <b>: negrito
+<p>: parágrafo
+<h>: título
+<em>: itálico
+<img src = "nome da imagem">
+
+Style: 
+
+Text-align
+font-size
+font-family
+background: hexadecimal
+background-color: cor
+text-transform:
+text-weight: 
+
+Manipulando elementos visuais:
+
+width: largura em px ou %
+heigh: altura em px
+padding: espaçamento interno
+margin: espaçamento externo
+
+Listas:
+
+<ul> lista desordenada
+<ol> lista ordenada
+	<li> tópicos
+
+Cabeçalho: <header>
+
+<nav>
+Link: <a href ""> (anchor(âncora))
+
+
+

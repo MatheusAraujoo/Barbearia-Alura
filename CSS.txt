@@ -1,0 +1,22 @@
+Tipos de CSS:
+
+inline: utilizo a tag "style" em todos os meus elementos.
+
+No head: utilizo a tag "style" somente no head e aplico a todos os elementos.
+
+<style>
+  p{
+     text-align: center
+  {
+</style>
+
+Externo (mais comum): crio um arquivo CSS e estabeleço um link com o arquivo HTML através do 
+<link rel="stylesheet" href="style.css">
+
+Como referenciar uma tag específica no CSS?
+
+R: Devemos criar um ID para essa tag no HTML, e referenciá-la no CSS utilzando "#".
+
+Como referenciar várias tags específicas no CSS?
+
+R: Devemos criar uma "class" para as tags no HTML, e referenciá-las no CSS utilzando ".".
